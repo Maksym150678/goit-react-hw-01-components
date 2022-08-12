@@ -14,23 +14,15 @@ export const App = () => {
         avatar={user.avatar}
         stats={user.stats}
       />
+       <Statistics title="Upload stats" stats={data} />
+       
+
     </div>
   );
 };
 
-export const statList = ({ statistics }) => (
-  <section>
-    <Statistics title="Upload stats" stats={data} />
-  <Statistics stats={data} />
-  <ul>
-    {statistics.map(item => (
-      <li key={item.id}>
-        {item.label} {item.percentage}
-      </li>
-    ))}
-  </ul>
-  </section>
-);
+
+
 
 
   
