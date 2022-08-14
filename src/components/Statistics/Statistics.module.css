@@ -1,0 +1,24 @@
+.title {
+    text-align: center;
+    
+  }
+  .stat__list {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    width: 100px;
+    gap: 10px;
+  }
+  .percentage {
+    font-size: 25px;
+    font-weight: 600;
+  }
